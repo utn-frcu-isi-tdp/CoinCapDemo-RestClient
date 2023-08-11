@@ -9,7 +9,7 @@
 
         T Patch<T>(string resourceUrl, object? body = null, Dictionary<string, string>? urlParams = null) where T : new();
 
-        T Delete<T>(string resourceUrl, object? body = null, Dictionary<string, string>? urlParams = null) where T : new();
+        T Delete<T>(string resourceUrl2, object? body = null, Dictionary<string, string>? urlParams = null) where T : new();
 
     }
 }
