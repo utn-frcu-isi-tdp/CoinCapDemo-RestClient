@@ -11,7 +11,7 @@ var logger = LogManager.GetLogger(MethodBase.GetCurrentMethod()?.DeclaringType);
 
 try
 {
-    logger.Info("Inicializando RestClient...");
+    logger.Info("Inicializando RestClient.....");
     var apiClient = new ApiClient("https://api.coincap.io", 5000);
 
     logger.Info("Realizando petición a recurso assets...");
